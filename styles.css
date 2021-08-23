@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* header starts */
+.material-icons{
+    color: grey;
+}
+.header{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    height: 70px;
+    padding: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 120px;
+    height: 80px;
+}
+.left-icons i{
+    padding: 0px 7px;
+    cursor: pointer;
+}
+.search-bar form{
+    border: 1px solid #ddd;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.search-bar input{
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+}
+.search-bar button{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+}
+.key_words{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+
+    
+}
+.key_words button{
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: none;
+    display: flex;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 15px;
+
+}
+/* header ends */
+
+/* main body starts */
+
+.mainBody{
+    height: calc(100vh-70px);
+    display: flex;
+    overflow: hidden;
+}
+
+/* sidebar starts */
+.sidebar{
+    position: absolute;
+    top: 75px;
+    height: 100%;
+    width: 230px;
+    background-color: white;
+    overflow-y: scroll;
+}
+.sidebar_categories{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 15px;
+}
+.sidebar_cat{
+    display: flex;
+    align-items: 25px;
+    padding: 12px 25px;
+}
+/* sidebar starts */
+
+.videos{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    padding: 15px 15px;
+    border-top: 1px solid #ddd;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+
